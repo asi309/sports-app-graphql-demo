@@ -1,0 +1,24 @@
+.registrations {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.registrations li {
+    padding: 10px;
+    margin: 1rem;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.registrations .title {
+    margin-top: 0.5rem;
+    font-weight: 700;
+}
+
+.registrations span {
+    margin: 0.5rem;
+}

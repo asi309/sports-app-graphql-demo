@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    min-width: 100%;
+}
+
+body {
+    background: rgba(0,0,0,0.5) url('./assets/background.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+body,
+input,
+button {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    margin: 70px auto;
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    color: rgba(0,0,0,0.67);
+}
+
+.content-box {
+    width: 80%;
+    background: rgba(255,255,255,0.85);
+    margin-top: 50px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content-box h2 {
+    margin-bottom: 20px;
+    color: rgba(0,0,0,0.67);
+}
+
+.content-box input {
+    background-color: rgba(255,255,255,0.45);
+    margin-bottom: 1px;
+}
+
+.content-box .btn {
+    border: 0;
+    border-radius: 4px;
+    padding: 0 20px;
+    font-weight: 700;
+    height: 40px;
+}
+
+.content-box .submit-btn {
+    background: #a13d15;
+    color: #fff;
+    margin: 10px 0 7px 0;
+    opacity: 0.85;
+    width: 100%;
+}
+
+.content-box .submit-btn:hover {
+    background: #b74518;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* .content-box .btn-submit:focus-within {
+    background: #b74518;
+    cursor: pointer;
+    border: 0;
+}
+
+.content-box .btn-submit:focus {
+    background: #b74518;
+    cursor: pointer;
+    border: 0;
+    box-shadow: none;
+} */
+
+.content-box .submit-btn:active {
+    background: #e3561e;
+}
+
+.content-box .secondary-btn {
+    background: #124b80;
+    color: #fff;
+    margin: 10px 0 7px 0;
+    width: 100%;
+}
+
+.content-box .secondary-btn:hover {
+    background: #165d9e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.content-box .secondary-btn:active {
+    background: #1f81dc;
+}
+
+.content-box .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+}
